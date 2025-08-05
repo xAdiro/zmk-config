@@ -22,21 +22,21 @@
             // | CRTL  | ALT | GUI | LOWER |    GUI    | LOWER | SPACE   | --- | DEL  | SPACE |     RAISE     | LEFT  | DOWN | UP |   RIGHT   |
 
             bindings = <
-&kp GRAVE   &kp NUMBER_1  &kp N2            &kp N3        &kp N4    &kp N5                                                      &kp N6  &kp N7         &kp N8             &kp N9           &kp N0      &kp MINUS
-&kp TAB     &kp Q         &kp W             &kp E         &kp R     &kp T   &kp CAPSLOCK                             &mo 3      &kp Y   &kp U          &kp I              &kp O            &kp P       &kp EQUAL
-&kp ESCAPE  &kp A         &kp S             &kp D         &kp F     &kp G   &kp LBKT                                 &kp RBKT   &kp H   &kp J          &kp K              &kp L            &kp SEMI    &kp SQT
-&kp LSHFT   &kp Z         &kp X             &kp C         &kp V     &kp B   &kp LCTRL     &mo 1             &mo 2    &kp TAB    &kp N   &kp M          &kp COMMA          &kp DOT          &kp FSLH    &kp RSHFT
-&kp C_PREV  &kp C_NEXT    &kp C_PLAY_PAUSE  &kp LEFT_ALT  &kp LGUI          &kp SPACE     &kp LEFT_SHIFT    &kp DEL  &kp ENTER          &kp RIGHT_ALT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE  &kp C_MENU
+&kp GRAVE   &kp NUMBER_1  &kp N2            &kp N3        &kp N4    &kp N5                                                         &kp N6  &kp N7         &kp N8             &kp N9           &kp N0      &kp MINUS
+&kp TAB     &kp Q         &kp W             &kp E         &kp R     &kp T   &kp CAPSLOCK                            &mo 3          &kp Y   &kp U          &kp I              &kp O            &kp P       &kp EQUAL
+&kp ESCAPE  &kp A         &kp S             &kp D         &kp F     &kp G   &kp LBKT                                &kp RBKT       &kp H   &kp J          &kp K              &kp L            &kp SEMI    &kp SQT
+&kp LSHFT   &kp Z         &kp X             &kp C         &kp V     &kp B   &kp LCTRL       &mo 1        &mo 2      &kp TAB        &kp N   &kp M          &kp COMMA          &kp DOT          &kp FSLH    &kp RSHFT
+&kp C_PREV  &kp C_NEXT    &kp C_PLAY_PAUSE  &kp LEFT_ALT  &kp LGUI          &kp LEFT_SHIFT  &kp SPACE    &kp ENTER  &kp BACKSPACE          &kp RIGHT_ALT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE  &kp C_MENU
             >;
         };
 
         symbols_numpad_layer {
             bindings = <
-&trans  &kp F1           &kp F2        &kp F3     &kp F4                &kp F5                                                               &kp F6           &kp F7           &kp F8           &kp F9           &kp F10        &kp F11
-&trans  &kp EXCLAMATION  &kp AT        &kp HASH   &kp LBKT              &kp RBKT               &trans                        &kp KP_NUMLOCK  &kp KP_ASTERISK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS   &kp F12
-&trans  &kp DOLLAR       &kp PERCENT   &kp CARET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                        &trans          &kp KP_SLASH     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS    &kp F13
-&trans  &kp AMPERSAND    &kp ASTERISK  &kp MINUS  &kp EQUAL             &trans                 &trans  &trans    &trans      &trans          &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp BACKSLASH  &kp F14
-&trans  &trans           &trans        &trans     &trans                                       &trans  &trans    &kp DELETE  &trans                           &trans           &kp KP_N0        &kp F17          &kp F16        &kp F15
+&trans  &kp F1           &kp F2        &kp F3     &kp F4                &kp F5                                                           &kp F6           &kp F7           &kp F8           &kp F9           &kp F10        &kp F11
+&trans  &kp EXCLAMATION  &kp AT        &kp HASH   &kp LBKT              &kp RBKT               &trans                    &kp KP_NUMLOCK  &kp KP_ASTERISK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS   &kp F12
+&trans  &kp DOLLAR       &kp PERCENT   &kp CARET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                    &trans          &kp KP_SLASH     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS    &kp F13
+&trans  &kp AMPERSAND    &kp ASTERISK  &kp MINUS  &kp EQUAL             &trans                 &trans  &trans    &trans  &trans          &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp BACKSLASH  &kp F14
+&trans  &trans           &trans        &trans     &trans                                       &trans  &trans    &trans  &kp DELETE                       &trans           &kp KP_N0        &kp F17          &kp F16        &kp F15
             >;
         };
 
